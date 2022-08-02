@@ -1,0 +1,24 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2022-07-05 12:44:51 --> Severity: Warning --> Attempt to read property "retail" on array /home1/sarkark2/public_html/brandhypeco/9gates/application/controllers/api/Productapi.php 540
+ERROR - 2022-07-05 12:44:51 --> Severity: Warning --> Attempt to read property "coupon_value" on array /home1/sarkark2/public_html/brandhypeco/9gates/application/controllers/api/Productapi.php 540
+ERROR - 2022-07-05 12:44:51 --> Severity: Warning --> Attempt to read property "product_id" on array /home1/sarkark2/public_html/brandhypeco/9gates/application/controllers/api/Productapi.php 544
+ERROR - 2022-07-05 12:44:51 --> Severity: Warning --> Attempt to read property "qty" on array /home1/sarkark2/public_html/brandhypeco/9gates/application/controllers/api/Productapi.php 547
+ERROR - 2022-07-05 12:44:51 --> Query error: Column 'product_id' cannot be null - Invalid query: INSERT INTO `tbl_order` (`orderid`, `product_id`, `retail`, `userid`, `qty`) VALUES (503337, NULL, 0, '2', NULL)
+ERROR - 2022-07-05 12:44:51 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home1/sarkark2/public_html/brandhypeco/9gates/system/core/Exceptions.php:271) /home1/sarkark2/public_html/brandhypeco/9gates/system/core/Common.php 570
+ERROR - 2022-07-05 12:45:26 --> Severity: Warning --> Attempt to read property "retail" on array /home1/sarkark2/public_html/brandhypeco/9gates/application/controllers/api/Productapi.php 540
+ERROR - 2022-07-05 12:45:26 --> Severity: Warning --> Attempt to read property "coupon_value" on array /home1/sarkark2/public_html/brandhypeco/9gates/application/controllers/api/Productapi.php 540
+ERROR - 2022-07-05 12:45:26 --> Severity: Warning --> Attempt to read property "product_id" on array /home1/sarkark2/public_html/brandhypeco/9gates/application/controllers/api/Productapi.php 544
+ERROR - 2022-07-05 12:45:26 --> Severity: Warning --> Attempt to read property "qty" on array /home1/sarkark2/public_html/brandhypeco/9gates/application/controllers/api/Productapi.php 547
+ERROR - 2022-07-05 12:45:26 --> Query error: Column 'product_id' cannot be null - Invalid query: INSERT INTO `tbl_order` (`orderid`, `product_id`, `retail`, `userid`, `qty`) VALUES (122044, NULL, 0, '2', NULL)
+ERROR - 2022-07-05 12:45:26 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home1/sarkark2/public_html/brandhypeco/9gates/system/core/Exceptions.php:271) /home1/sarkark2/public_html/brandhypeco/9gates/system/core/Common.php 570
+ERROR - 2022-07-05 12:46:50 --> Severity: Warning --> Attempt to read property "retail" on array /home1/sarkark2/public_html/brandhypeco/9gates/application/controllers/api/Productapi.php 540
+ERROR - 2022-07-05 12:46:50 --> Severity: Warning --> Attempt to read property "coupon_value" on array /home1/sarkark2/public_html/brandhypeco/9gates/application/controllers/api/Productapi.php 540
+ERROR - 2022-07-05 12:52:20 --> Severity: Warning --> Undefined property: stdClass::$product_id /home1/sarkark2/public_html/brandhypeco/9gates/application/controllers/api/Productapi.php 546
+ERROR - 2022-07-05 12:52:20 --> Severity: Warning --> Undefined property: stdClass::$qty /home1/sarkark2/public_html/brandhypeco/9gates/application/controllers/api/Productapi.php 549
+ERROR - 2022-07-05 12:52:20 --> Query error: Column 'product_id' cannot be null - Invalid query: INSERT INTO `tbl_order` (`orderid`, `product_id`, `retail`, `userid`, `qty`) VALUES (985218, NULL, 165, '2', NULL)
+ERROR - 2022-07-05 12:52:20 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home1/sarkark2/public_html/brandhypeco/9gates/system/core/Exceptions.php:271) /home1/sarkark2/public_html/brandhypeco/9gates/system/core/Common.php 570
+ERROR - 2022-07-05 12:53:38 --> Severity: Warning --> Undefined property: stdClass::$qty /home1/sarkark2/public_html/brandhypeco/9gates/application/controllers/api/Productapi.php 549
+ERROR - 2022-07-05 12:53:38 --> Query error: Column 'qty' cannot be null - Invalid query: INSERT INTO `tbl_order` (`orderid`, `product_id`, `retail`, `userid`, `qty`) VALUES (152241, '7', 165, '2', NULL)
+ERROR - 2022-07-05 12:53:38 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home1/sarkark2/public_html/brandhypeco/9gates/system/core/Exceptions.php:271) /home1/sarkark2/public_html/brandhypeco/9gates/system/core/Common.php 570
+ERROR - 2022-07-05 21:36:08 --> Severity: error --> Exception: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Productapi does not have a method "index_get" /home1/sarkark2/public_html/brandhypeco/9gates/application/libraries/REST_Controller.php 739

@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ http://www.plagiarismfreeassignment.com/$1 [R,L]
+RewriteRule ^index$ index.php
+RewriteRule ^about$ about.php
+RewriteRule ^contact$ contact.php
+RewriteRule ^order-now$ order.php
+RewriteRule ^services$ services.php
+RewriteRule ^term-conditions$ term-conditions.php
+RewriteRule ^refund-policy$ refund-policy.php
+RewriteRule ^reviews$ reviews.php
+RewriteRule ^faq$ faq.php
+
+RewriteRule ^sample$ sample.php
+RewriteRule ^proposal-writing$ proposal-writing.php
+RewriteRule ^write-my-dissertation-thesis$ write-my-dissertation-thesis.php
+
+RewriteRule ^proposal-sample$ proposal-sample.php
+RewriteRule ^dissertation-sample$ dissertation-sample.php

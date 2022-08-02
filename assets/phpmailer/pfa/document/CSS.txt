@@ -1,0 +1,229 @@
+/* Header */
+#Top_bar:after { background: #74c5f3; content: ""; display: block; height: 4px; left: 0; position: absolute; width: 100%; z-index: 21; }
+
+#Action_bar a { color: #a7afcd; }
+
+h2 { background: url(http://helpmyassignment.com/wp-content/uploads/2014/11/home_language_h2_icon.png) left center no-repeat; padding-left: 40px; font-weight: 700; }
+
+/* Footer */
+.widget .google-map { border-width: 0; }
+#Footer .widgets_wrapper { padding: 35px 0; }
+#Footer .footer_copy { border-top: 0; background-color: #181a1d; }
+#Footer .footer_copy .copyright { float: none; width: 100%; text-align: center; margin-bottom: 10px; }
+#Footer .footer_copy a#back_to_top { display: none; }
+
+.post-title h2.entry-title { font-size: 22px; line-height: 27px; padding: 0; background: none; }
+
+/* Table */
+table { border-collapse: separate !important; border-spacing: 0 3px; font-size: 105%; }
+table thead th { font-size: 16px;  width: 20%; }
+table th, table td { border-width: 0; padding: 17px 10px; }
+table tr:nth-child(1n) td { background:#f3f5f7; }
+table th,
+table tr:nth-child(2n) td { background:#eff7fb; }
+table tr:hover td { background: inherit; color: inherit !important; }
+
+/* Form */
+input[type="text"], input[type="tel"], input[type="password"], input[type="email"], textarea, select, .woocommerce .quantity input.qty {
+    background-color: transparent;
+    border-color: #74c5f3;
+    box-shadow: 0 0 0 0;
+    color: #949493;
+	border-width: 2px;
+	border-radius: 5px;
+}
+input[type="text"]:focus, input[type="tel"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus, select:focus {
+    background-color: transparent !important;
+    border-color: #45558b !important;
+    color: #45558b;
+}
+
+#Top_bar .menu li ul li a {
+    padding: 1px 20px;
+}
+
+#Top_bar::after {
+    display: none;
+}
+
+.top_bar_right {
+    display: none;
+}
+
+.header-transparent.ab-hide #Top_bar {
+    background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+    top: 0;
+}
+
+#Footer {
+    background-color: #383835;
+}
+
+#Footer a {
+     color: #74c5f3;
+}
+
+#Footer  h4{
+    border-bottom: 1px solid #74C5F3;
+    padding-bottom:5px;
+    font-size: 25px;
+}
+
+#Footer .footer_copy {
+    border-top: 1px solid #444;
+}
+
+#Footer {
+    background-color: #181a1d;
+}
+
+@media screen and (min-width: 300px) and (max-width: 640px){
+#Top_bar .logo #logo {
+    margin: -3px 37px 7px 0;
+}
+}
+
+h5 {
+    font-size: 21px;
+}
+
+
+p {
+    font-size: 15px;
+}
+
+body {
+    font-size: 15px;
+}
+
+.column_attr > ul {
+    color: #626262;
+    font-size: 15px;
+}
+
+h4 {
+    font-family: arial;
+}
+
+.page-id-153 .column_attr.align_center {
+    background: #eee none repeat scroll 0 0;
+    padding: 5px 0;
+}
+
+
+.page-id-153 h5 {
+    color: gray;
+    font-size: 17px;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.page-id-86 .wpcf7-form-control.wpcf7-textarea {
+    height: 80px;
+}
+
+h4 {
+    color: #74c5f3;
+}
+
+#Top_bar .menu > li ul li a:hover, #Top_bar .menu > li ul li.hover > a {
+    background: #13609e;
+    color: #fff;
+}
+#Top_bar .menu li ul li {
+    width: 240px;
+}
+
+textarea {
+    height: 135px;
+}
+
+#Wrapper, #Content {
+    background-color: #fff;
+}
+
+.column.mcb-column.one-third.column_sidebar_widget {
+    background: #eee none repeat scroll 0 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.page-id-219 .column.mcb-column.one.column_sidebar_widget {
+   background: #eee none repeat scroll 0 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.layout-boxed {
+    padding: 0 25px;
+}
+
+#Action_bar .contact_details {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#Action_bar .contact_details li {
+    color: #74c5f3;
+}
+
+.header-classic #Action_bar, .header-stack #Action_bar {
+    background-color: #103d57;
+    border-bottom: 1px solid #eee;
+    border-top: 6px solid #2e8dc7;
+}
+
+#Action_bar .column {
+    margin-bottom: -18px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 300px) and (max-width: 640px){
+.header-classic #Action_bar, .header-stack #Action_bar {
+    display: none;
+}
+}
+
+.textwidget li {
+    font-size: 15px;
+    color: #aaa;
+}
+
+#Top_bar .menu > li > a span:not(.description) {
+    padding: 0 8px;
+}
+
+#menu > ul > li > a, .action_button {
+    font-size: 14px;
+}
+
+.menu-highlight #Top_bar #menu > ul > li.current-menu-item > a, .menu-highlight #Top_bar #menu > ul > li.current_page_item > a, .menu-highlight #Top_bar #menu > ul > li.current-menu-parent > a, .menu-highlight #Top_bar #menu > ul > li.current-page-parent > a, .menu-highlight #Top_bar #menu > ul > li.current-menu-ancestor > a, .menu-highlight #Top_bar #menu > ul > li.current-page-ancestor > a, .menu-highlight #Top_bar #menu > ul > li.current_page_ancestor > a, .menu-highlight #Top_bar #menu > ul > li.hover > a {
+    background: #e72025 none repeat scroll 0 0;
+}
+
+.header-classic #Action_bar .contact_details li, .header-classic #Action_bar .social, .header-classic #Action_bar .social-menu {
+    margin: -12px 0 1px 0;
+}
+
+#Top_bar .menu li ul li a span {
+    font-size: 12px;
+}
+#Top_bar .menu > li > ul.mfn-megamenu a.mfn-megamenu-title {
+    color: #e72025;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.dc-contact-content .slick-form li.text-row {
+    height: auto !important;
+}
+h1, .text-logo #logo {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.home h2 {
+    background: none;
+}

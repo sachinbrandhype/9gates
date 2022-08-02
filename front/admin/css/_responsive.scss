@@ -1,0 +1,34 @@
+@media screen and (max-width:767px){
+    .login_page_wrapper{
+        .right_wrapper{
+            display: none;
+        }
+        .left_wrapper{
+            width: 100%;
+            .login_form_box{
+                max-width: 90%;            
+                img.logo{
+                    height: 40px;
+                }  
+                
+                form.forms{
+                    @include containers;
+                    margin-top:15px;
+                    input.submit-btn{
+                        width: 100%;
+                    }
+                }
+                .bottom_link{
+                    @include containers;
+                    margin-top: 20px;
+                    text-align: left;
+                    a{
+                        display: inline-block;                    
+                        color: #000;
+                        font-weight: 600;
+                    }
+                }            
+            }
+        }
+    }
+}

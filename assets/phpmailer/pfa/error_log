@@ -1,0 +1,50 @@
+[04-Sep-2017 10:00:31 Etc/GMT] PHP Notice:  Undefined index: masseg in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Enquery.php on line 5
+[05-Sep-2017 06:31:30 Etc/GMT] PHP Notice:  Undefined index: file_1 in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 13
+[05-Sep-2017 06:31:30 Etc/GMT] PHP Notice:  Undefined index: file_2 in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 14
+[05-Sep-2017 06:31:30 Etc/GMT] PHP Notice:  Undefined index: file_3 in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 15
+[05-Sep-2017 06:31:30 Etc/GMT] PHP Notice:  Undefined index: file_4 in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 16
+[05-Sep-2017 06:31:30 Etc/GMT] PHP Notice:  Undefined variable: phone in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 34
+[05-Sep-2017 06:53:44 Etc/GMT] PHP Notice:  Undefined index: file_1 in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 13
+[05-Sep-2017 06:53:44 Etc/GMT] PHP Notice:  Undefined index: file_2 in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 14
+[05-Sep-2017 06:53:44 Etc/GMT] PHP Notice:  Undefined index: file_3 in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 15
+[05-Sep-2017 06:53:44 Etc/GMT] PHP Notice:  Undefined index: file_4 in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 16
+[05-Sep-2017 07:02:50 Etc/GMT] PHP Notice:  Undefined index: file_1 in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 13
+[05-Sep-2017 07:02:50 Etc/GMT] PHP Notice:  Undefined index: file_2 in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 14
+[05-Sep-2017 07:02:50 Etc/GMT] PHP Notice:  Undefined index: file_3 in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 15
+[05-Sep-2017 07:02:50 Etc/GMT] PHP Notice:  Undefined index: file_4 in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 16
+[05-Sep-2017 09:18:08 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 09:18:27 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 09:20:15 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 09:23:02 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 09:23:43 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 09:27:51 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 09:31:42 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 09:38:48 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 10:09:38 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 10:11:41 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 10:15:35 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 10:19:35 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 10:22:58 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 10:25:55 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 10:35:57 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 10:36:54 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[05-Sep-2017 10:42:12 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/spiritu/public_html/sachin/assignment_plagiarismfree/Mailer.php on line 124
+[07-Sep-2017 05:50:03 Etc/GMT] PHP Fatal error:  Call to undefined function getIP() in /home/plagiaris/public_html/ip-tacker.php on line 3
+[07-Sep-2017 05:50:32 Etc/GMT] PHP Fatal error:  Call to undefined function getIP() in /home/plagiaris/public_html/ip-tacker.php on line 3
+[07-Sep-2017 05:50:42 Etc/GMT] PHP Fatal error:  Call to undefined function getIP() in /home/plagiaris/public_html/ip-tacker.php on line 3
+[07-Sep-2017 05:50:43 Etc/GMT] PHP Fatal error:  Call to undefined function getIP() in /home/plagiaris/public_html/ip-tacker.php on line 3
+[07-Sep-2017 05:50:56 Etc/GMT] PHP Notice:  Undefined variable: user_ip in /home/plagiaris/public_html/ip-tacker.php on line 4
+[07-Sep-2017 05:52:19 Etc/GMT] PHP Notice:  Undefined index: REMOTE_ADDR in /home/plagiaris/public_html/ip-tacker.php on line 2
+[07-Sep-2017 05:53:07 Etc/GMT] PHP Notice:  Undefined index: REMOTE_ADDR in /home/plagiaris/public_html/ip-tacker.php on line 2
+[07-Sep-2017 05:53:18 Etc/GMT] PHP Notice:  Undefined index: REMOTE_ADDR in /home/plagiaris/public_html/ip-tacker.php on line 2
+[07-Sep-2017 05:54:03 Etc/GMT] PHP Notice:  Undefined index: REMOTE_ADDR in /home/plagiaris/public_html/ip-tacker.php on line 2
+[07-Sep-2017 05:57:21 Etc/GMT] PHP Notice:  Undefined index: REMOTE_ADDR in /home/plagiaris/public_html/ip-tacker.php on line 2
+[07-Sep-2017 05:57:23 Etc/GMT] PHP Notice:  Undefined index: REMOTE_ADDR in /home/plagiaris/public_html/ip-tacker.php on line 2
+[07-Sep-2017 05:57:26 Etc/GMT] PHP Notice:  Undefined index: REMOTE_ADDR in /home/plagiaris/public_html/ip-tacker.php on line 2
+[07-Sep-2017 05:57:29 Etc/GMT] PHP Notice:  Undefined index: REMOTE_ADDR in /home/plagiaris/public_html/ip-tacker.php on line 2
+[07-Sep-2017 06:09:28 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/plagiaris/public_html/ip-tacker.php on line 6
+[07-Sep-2017 06:09:28 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/plagiaris/public_html/ip-tacker.php on line 8
+[07-Sep-2017 06:09:28 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/plagiaris/public_html/ip-tacker.php on line 10
+[07-Sep-2017 06:09:28 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/plagiaris/public_html/ip-tacker.php on line 12
+[12-Sep-2017 10:26:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/plagiaris/public_html/Enquiry.php on line 92
+[12-Sep-2017 10:27:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/plagiaris/public_html/Enquiry.php on line 92

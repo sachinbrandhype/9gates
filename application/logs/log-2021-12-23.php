@@ -1,0 +1,42 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-12-23 00:52:02 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 03:25:47 --> 404 Page Not Found: Uploads/p13-1.jpg
+ERROR - 2021-12-23 03:25:53 --> 404 Page Not Found: Uploads/p13-1.jpg
+ERROR - 2021-12-23 03:26:25 --> 404 Page Not Found: Uploads/p13-1.jpg
+ERROR - 2021-12-23 03:26:58 --> 404 Page Not Found: Uploads/p13-1.jpg
+ERROR - 2021-12-23 03:27:13 --> 404 Page Not Found: Uploads/p13-1.jpg
+ERROR - 2021-12-23 03:27:23 --> 404 Page Not Found: Uploads/p13-1.jpg
+ERROR - 2021-12-23 03:27:52 --> 404 Page Not Found: Uploads/p13-1.jpg
+ERROR - 2021-12-23 03:28:36 --> 404 Page Not Found: Uploads/p13-1.jpg
+ERROR - 2021-12-23 03:29:51 --> 404 Page Not Found: Uploads/p13-1.jpg
+ERROR - 2021-12-23 03:30:05 --> 404 Page Not Found: Uploads/p13-1.jpg
+ERROR - 2021-12-23 03:30:52 --> 404 Page Not Found: Uploads/p13-1.jpg
+ERROR - 2021-12-23 05:07:48 --> 404 Page Not Found: Uploads/p13-1.jpg
+ERROR - 2021-12-23 05:20:25 --> 404 Page Not Found: Uploads/p13-1.jpg
+ERROR - 2021-12-23 06:06:06 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 06:06:12 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 06:06:17 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 06:06:22 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 06:06:24 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 06:06:34 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 06:06:45 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:23:12 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:23:15 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:23:20 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:25:55 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:26:23 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:26:38 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:27:04 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:30:48 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:32:51 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:34:16 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:34:29 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:34:33 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:34:35 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:34:37 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:34:42 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:34:49 --> Severity: error --> Exception: Too few arguments to function Productapi::searchproduct_get(), 0 passed in /home1/sarkark2/public_html/brandhypeco/bumaco/application/libraries/REST_Controller.php on line 739 and exactly 1 expected /home1/sarkark2/public_html/brandhypeco/bumaco/application/controllers/api/Productapi.php 57
+ERROR - 2021-12-23 09:36:48 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:41:18 --> 404 Page Not Found: Uploads/null
+ERROR - 2021-12-23 09:46:51 --> 404 Page Not Found: Uploads/null

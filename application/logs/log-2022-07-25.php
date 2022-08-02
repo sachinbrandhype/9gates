@@ -1,0 +1,8 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2022-07-25 23:34:29 --> Severity: error --> Exception: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Bannerapi does not have a method "index_get" /home1/sarkark2/public_html/brandhypeco/9gates/application/libraries/REST_Controller.php 739
+ERROR - 2022-07-25 23:34:31 --> Severity: error --> Exception: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Bannerapi does not have a method "index_get" /home1/sarkark2/public_html/brandhypeco/9gates/application/libraries/REST_Controller.php 739
+ERROR - 2022-07-25 23:34:31 --> Severity: error --> Exception: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Bannerapi does not have a method "index_get" /home1/sarkark2/public_html/brandhypeco/9gates/application/libraries/REST_Controller.php 739
+ERROR - 2022-07-25 23:34:31 --> Severity: error --> Exception: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Bannerapi does not have a method "index_get" /home1/sarkark2/public_html/brandhypeco/9gates/application/libraries/REST_Controller.php 739
+ERROR - 2022-07-25 23:34:31 --> Severity: error --> Exception: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Bannerapi does not have a method "index_get" /home1/sarkark2/public_html/brandhypeco/9gates/application/libraries/REST_Controller.php 739
+ERROR - 2022-07-25 23:34:36 --> Severity: error --> Exception: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Bannerapi does not have a method "index_get" /home1/sarkark2/public_html/brandhypeco/9gates/application/libraries/REST_Controller.php 739

@@ -1,0 +1,275 @@
+<?php $this->load->view("header"); ?>
+
+<div class="container-fluid llg1-wp">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4" style="margin-left:30%">
+				<div class="log-scn-dv">
+					<div class="hdrp">
+						<h4>LOGIN</h4>
+					</div>
+					<div id="checkemailokoko"></div>
+					<div class="lgn-bbdy ottps">
+						<form id="otp">
+							<div class="form-group">
+								<input type="text" name="phone" class="form-control ssgn-s3" placeholder="Mobile no">
+								<span class="message" id="msgphone"></span>
+							</div>
+							<div class="otps-lble">
+								<p>Welcome back <br>Please enter the OTP sent on your phone(Be sure to check your spam folder)</p>
+							</div>
+							<div class="form-group">
+								<input type="text" name='otp' class="form-control enr-otp">
+								<span class="message" id="msgotp"></span>
+								<label><a href="#">re-send otp</a></label>
+							</div>
+							<div class="form-group">
+								<input type="button" class="but-lgn-sbs" id="isValidateOTP" value="Login">
+							</div>
+							<a href ="<?=base_url()?>home/loginuserform">Login via Password</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<?php $this->load->view("footer.php"); ?>
+
+<script>
+
+
+
+$(document).on('click','#registeruserbyclick',function(){
+   $('#registeruser').show(); 
+   $('#emaillogin').hide();
+});
+
+$(document).on('click','#isValidateOTP', function() {
+	if (isValidateRegistorOTP()) {
+		var frm = $("#otp").serialize();
+		alert(frm);
+		$.ajax({
+			url :'<?=base_url("home/loginuserbyotp")?>',
+			data : frm,
+			type : 'POST',
+			success : function(result) {
+			    //alert(result);
+			   window.location.href='<?=base_url()?>home/index';
+			}
+		});
+	}
+});	
+
+function isValidateRegistorOTP() {
+
+	var valid = true;
+	var phone = $("input[name='phone']").val();
+	var otp = $("input[name='otp']").val();
+
+	$(".message").html("&nbsp;");
+	$(".message").css("color", "red");
+	$(".message").css("font-size", "12px");
+	$(".message").hide();
+	
+	if (phone.length == 0 ) {
+		valid = false;
+		$("#msgphone").html("Enter 10 digit no");
+		$("#msgphone").show();
+	}
+	
+	if (otp == 0 ) {
+		valid = false;
+		$("#msgotp").html("Enter valid otp");
+		$("#msgotp").show();
+	}
+    
+
+	return valid;
+}
+
+
+</script>
+
+<style type="text/css">
+	.lgdvi2 {
+		height: 50vh;
+	}
+	.llg1-wp {
+		background-color: #f7f7f7;
+		margin: 20px 0;
+	}
+	.log-scn-dv {
+		background-color: #fff;
+	    box-shadow: 0 0 9px 2px rgb(20 23 28 / 10%), 0 3px 1px 0 rgb(20 23 28 / 10%);
+	    padding: 15px;
+	    border-radius: 20px;
+    	border: 1px solid #ddd;
+	}
+	.hdrp h3 {
+		color: #001325;
+	    padding-bottom: 0.25rem;
+	    font-family: 'Source Sans Pro', sans-serif;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	}
+	.hdrp p {
+		 font-size: 17px;
+	}
+	.lgn-bbdy {
+		border-top: 1px solid #3333336b;
+    	padding-top: 10px;
+	}
+	.lgn-bbdy img {
+		margin: 20px 0px;
+	}
+	.ssgn-s1 {
+		background-color: #f91e6a;
+	    color: #fff;
+	    padding: 22px;
+	    width: 100%;
+	    border: none;
+	    font-family: 'Roboto', sans-serif;
+	    font-size: 17px;
+	    text-align: center;
+	}
+	.ssgn-s1::placeholder {
+		color: #fff;
+	}
+	.lgn-ggls {
+		width: 100%;
+	    border: 1px solid #ddd;
+	    padding: 7px;
+	    font-family: 'Roboto', sans-serif;
+	    font-size: 17px;
+	    color: #999;
+	    text-transform: capitalize;
+	    font-weight: bold;
+	    letter-spacing: 1px;
+	}
+	.fa-google {
+		background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+	    -webkit-background-clip: text;
+	    background-clip: text;
+	    color: transparent;
+	    -webkit-text-fill-color: transparent;
+	}
+	.lgp-pp {
+		margin: 30px 0;
+	}
+	.lgp-pp p {
+		font-size: 16px;
+	}
+
+
+	.hdrp h4 {
+		    color: #001325;
+	    padding-bottom: 0.25rem;
+	    font-family: 'Source Sans Pro', sans-serif;
+	    text-transform: uppercase;
+	    text-align: center;
+	}
+	.ssgn-s2 {
+		background-color: #f7f7f7;
+	    padding: 19px;
+	    text-align: center;
+	    font-size: 17px;
+	    font-family: 'Roboto', sans-serif;
+	    border: 1px solid #f03;
+	}
+	.but-lgn-sbs {
+		width: 100%;
+	    padding: 8px;
+	    text-transform: uppercase;
+	    background-color: #f91e6a;
+	    border: none;
+	    color: #fff;
+	    font-size: 17px;
+	    border-radius: 3px;
+	    margin-top: 90px;
+	}
+	.otps-lble {
+		text-align: center;
+    	margin: 30px 0;
+	}
+	.otps-lble p {
+		font-family: 'Roboto', sans-serif;
+	    text-align: center;
+	    font-size: 15px;
+	    font-weight: normal;
+	}
+	.enr-otp {
+		border: none;
+	    border-bottom: 1px solid #ddd;
+	    box-shadow: none;
+	    border-radius: 0;
+	    width: 60%;
+	    display: inline-block;
+	}
+	.ottps label a {
+		text-transform: uppercase;
+    	color: #f91e6a;
+	}
+	.ssgn-s3 {
+		background-color: #f7f7f7;
+	    padding: 19px;
+	    text-align: center;
+	    font-size: 17px;
+	    font-family: 'Roboto', sans-serif;
+	}
+	.ottps p {
+		text-align: center;
+	    font-size: 16px;
+	    color: #777;
+	}
+	.rgst-nmbr {
+		text-align: center;
+	    font-size: 16px;
+	    padding: 9px;
+	    margin-bottom: 30px;
+	    text-transform: capitalize;
+	}
+	.rgst-nmbr span {
+		    color: #f91e6a;
+	}
+	.ssgn-s4 {
+		border: none;
+	    box-shadow: none;
+	    border-radius: 0px;
+	    border-bottom: 1px solid #ddd;
+	    font-family: 'Roboto', sans-serif;
+	}
+	.sks-pwd {
+		border: none;
+	    box-shadow: none;
+	    border-radius: 0px;
+	    border-bottom: 1px solid #ddd;
+	}
+	.sk-pwd-shw {
+		background-color: #fff0;
+	    text-transform: uppercase;
+	    font-family: 'Roboto', sans-serif;
+	}
+	.lgn-nmbr {
+		background-color: #f91e6a;
+	    color: #fff;
+	    text-align: center;
+	    width: 100%;
+	    padding: 9px;
+	    font-size: 16px;
+	    margin: 15px 0;
+	}
+</style>
+
+
+<script type="text/javascript">
+	$(".reveal").on('click',function() {
+    var $pwd = $(".pwd");
+    if ($pwd.attr('type') === 'password') {
+        $pwd.attr('type', 'text');
+    } else {
+        $pwd.attr('type', 'password');
+    }
+});
+</script>

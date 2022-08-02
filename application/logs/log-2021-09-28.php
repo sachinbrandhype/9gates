@@ -1,0 +1,9 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-09-28 11:13:39 --> 404 Page Not Found: api/Categoryapi/category
+ERROR - 2021-09-28 12:28:24 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`category`, `subcategory`.`subcategory`, `subcategory`.`id`, `subcategory`.`...' at line 2 - Invalid query: SELECT *
+FROM `select` `category`.`category`, `subcategory`.`subcategory`, `subcategory`.`id`, `subcategory`.`image`, `subcategory`.`url`, `subcategory`.`description`, `subcategory`.`bannerimage from subcategory inner join category on category`.`id =` `subcategory`.`category`
+ERROR - 2021-09-28 12:32:45 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`category`, `subcategory`.`subcategory`, `subcategory`.`id`, `subcategory`.`...' at line 2 - Invalid query: SELECT *
+FROM `select` `category`.`category`, `subcategory`.`subcategory`, `subcategory`.`id`, `subcategory`.`image`, `subcategory`.`url`, `subcategory`.`description`, `subcategory`.`bannerimage from subcategory inner join category on category`.`id =` `subcategory`.`category`
+ERROR - 2021-09-28 12:33:57 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`category`, `subcategory`.`subcategory`, `subcategory`.`id`, `subcategory`.`...' at line 2 - Invalid query: SELECT *
+FROM `select` `category`.`category`, `subcategory`.`subcategory`, `subcategory`.`id`, `subcategory`.`image`, `subcategory`.`url`, `subcategory`.`description`, `subcategory`.`bannerimage from subcategory inner join category on category`.`id =` `subcategory`.`category`

@@ -1,0 +1,37 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-10-12 10:47:51 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 10:47:57 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 10:48:02 --> 404 Page Not Found: admin/Product/assets
+ERROR - 2021-10-12 11:48:54 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:09:20 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:09:25 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:09:33 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:15:46 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:15:50 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:15:55 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:20:49 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:20:54 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:21:55 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:21:58 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:22:02 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:27:09 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:27:14 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:27:19 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:27:26 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:28:21 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:28:22 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:28:23 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:28:23 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:28:23 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:28:28 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:28:43 --> 404 Page Not Found: admin/Product/assets
+ERROR - 2021-10-12 12:29:13 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:29:13 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:29:14 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:29:21 --> 404 Page Not Found: admin/Product/assets
+ERROR - 2021-10-12 12:29:22 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:38:40 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:38:45 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:51:43 --> 404 Page Not Found: Private/ssets
+ERROR - 2021-10-12 12:51:49 --> 404 Page Not Found: Private/ssets
